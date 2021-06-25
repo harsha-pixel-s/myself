@@ -1,0 +1,106 @@
+* {
+  background: rgb(103, 156, 236);
+  margin: 3px;
+  padding: 5px;
+}
+h1 {
+  font-weight: 700;
+  font-size: 40px;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  color: black;
+  text-align: center;
+  border-radius: 30px 30px 30px 0px;
+  background-color: rgba(0, 0, 0, 0.137);
+  position: fixed;
+}
+p {
+  font-size: 28px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  color: black;
+
+  background-color: none;
+}
+pre {
+  color: blueviolet;
+  font-size: 25px;
+  float: left;
+  background-color: rgba(103, 156, 236, 0);
+}
+
+i {
+  float: right;
+}
+.binding p {
+  float: left;
+  background-color: rgba(103, 156, 236, 0);
+  border: none;
+}
+.binding svg {
+  float: right;
+  border-collapse: collapse;
+}
+.binding {
+  padding-top: 100px;
+  display: inline-block;
+  border-radius: 20px 0px 20px 0px;
+  background-image: url("samepic.png");
+  border-style: dotted;
+  border-width: medium;
+}
+.binding p:hover {
+  background-color: rgba(0, 255, 0, 0.2);
+  font-style: italic;
+  width: max-content;
+}
+pre:hover {
+  font-weight: bolder;
+  font-style: italic;
+  background-color: mintcream;
+}
+h1:hover {
+  color: white;
+  background-color: black;
+}
+.sect {
+  padding-top: 0px;
+  text-align: center;
+}
+li {
+  float: left;
+  list-style-type: none;
+}
+
+a {
+  display: block;
+  padding: 8px;
+  background-color: #dddddd;
+}
+#profile:hover {
+  animation: shake 0.82s cubic-bezier(0.36, 0.07, 0.19, 0.97) both;
+  transform: translate3d(0, 0, 0);
+  backface-visibility: hidden;
+  perspective: 1000px;
+}
+
+@keyframes shake {
+  10%,
+  90% {
+    transform: translate3d(-1px, 0, 0);
+  }
+
+  20%,
+  80% {
+    transform: translate3d(2px, 0, 0);
+  }
+
+  30%,
+  50%,
+  70% {
+    transform: translate3d(-4px, 0, 0);
+  }
+
+  40%,
+  60% {
+    transform: translate3d(4px, 0, 0);
+  }
+}
