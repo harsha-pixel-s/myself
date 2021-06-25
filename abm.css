@@ -138,7 +138,7 @@ nav.main-menu.expanded {
   transition: all 0.1s linear;
 }
 
-.main-menu .nav-icon {
+.main-menu .nav-icon .home {
   position: relative;
   display: table-cell;
   width: 60px;
@@ -148,18 +148,12 @@ nav.main-menu.expanded {
   font-size: 18px;
 }
 
-.main-menu .nav-text {
+.main-menu .nav-text .home {
   position: relative;
   display: table-cell;
   vertical-align: middle;
   width: 190px;
   font-family: "Titillium Web", sans-serif;
-}
-
-.main-menu > ul.logout {
-  position: absolute;
-  left: 0;
-  bottom: 0;
 }
 
 .no-touch .scrollable.hover {
